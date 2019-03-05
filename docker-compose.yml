@@ -1,0 +1,7 @@
+web:
+  build: .
+  ports:
+    - "8084:80"
+    - "4434:443"
+  volumes:
+    - ./src:/var/www/html
